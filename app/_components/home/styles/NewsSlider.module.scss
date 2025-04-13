@@ -1,0 +1,44 @@
+.carousel {
+  height: 250px;
+  width: 100%;
+  position: relative;
+}
+
+.carouselItem {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imageContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.carouselImage {
+  object-fit: cover;
+  object-position: center;
+}
+
+.carouselCaption {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.captionTitle {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.captionText {
+  font-size: 0.9rem;
+  margin-bottom: 0;
+}

@@ -1,0 +1,73 @@
+.container {
+  display: grid;
+  place-content: center;
+  background-color: #fefefe;
+}
+
+.label {
+  pointer-events: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  display: none;
+}
+.labelText {
+  font-size: 20px;
+  font-weight: 500;
+  color: #333;
+}
+
+.input:checked + .toggleWrapper {
+  box-shadow: 0 8px 14px 0 rgba(57, 87, 238, 0.12);
+}
+.icon {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.input:checked + .toggleWrapper > .selector {
+  left: calc(100% - 50px);
+  background-color: #5862e8;
+}
+.selector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.toggleWrapper {
+  position: relative;
+  width: 120px;
+  height: 60px;
+  background-color: #eaeaea;
+  border-radius: 999px;
+  margin: auto;
+  cursor: pointer;
+  pointer-events: all;
+  box-shadow: 0 8px 14px 0 rgba(238, 95, 57, 0.12);
+}
+
+.selector {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  background-color: #47a67b;
+  transition: left 0.25s ease;
+  border-radius: 50%;
+}
+
+.notification {
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.selected::before {
+  font-size: 20px;
+  border-bottom: 2px solid;
+}

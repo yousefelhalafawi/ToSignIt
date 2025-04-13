@@ -1,0 +1,179 @@
+@import "../../../_style/variables.scss";
+
+.footer {
+  background-color: var(--color-dark);
+  color: #fff;
+  padding: 4rem 0 0;
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(
+      circle,
+      rgba(83, 78, 232, 0.05) 0%,
+      rgba(0, 7, 45, 0) 70%
+    );
+    z-index: 0;
+  }
+}
+
+.mainContent {
+  position: relative;
+  z-index: 1;
+}
+
+.companyInfo {
+  margin-bottom: 2rem;
+}
+
+.companyDescription {
+  margin: 1rem 0;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.socialLinks {
+  display: flex;
+  gap: 1rem;
+}
+
+.socialIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: var(--color-primary);
+    transform: translateY(-3px);
+  }
+}
+
+.columnTitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -0.5rem;
+    width: 50px;
+    height: 2px;
+    background-color: var(--color-primary);
+  }
+}
+
+.linksList,
+.contactList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    margin-bottom: 0.75rem;
+  }
+
+  a {
+    color: #fff;
+    opacity: 0.8;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+
+    &:hover {
+      opacity: 1;
+      color: var(--color-secondary);
+    }
+  }
+}
+
+.contactList {
+  li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+  }
+}
+
+.contactIcon {
+  margin-right: 0.75rem;
+  margin-top: 0.25rem;
+  color: var(--color-primary);
+}
+
+.newsletterForm {
+  display: flex;
+  margin-top: 1rem;
+
+  input {
+    flex-grow: 1;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+  }
+
+  button {
+    padding: 0.5rem 1rem;
+    background-color: var(--color-primary);
+    color: #fff;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background-color: darken(#534ee8, 10%);
+    }
+  }
+}
+
+.bottomBar {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 1rem 0;
+  margin-top: 3rem;
+  text-align: center;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.legalLink {
+  &:hover {
+    opacity: 1;
+    color: var(--color-secondary);
+    text-decoration: underline;
+  }
+}
+
+@media (max-width: 991px) {
+  .footer {
+    padding: 3rem 0 0;
+  }
+
+  .companyInfo,
+  .linksColumn,
+  .newsletterColumn {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .columnTitle {
+    margin-top: 1.5rem;
+  }
+}
+

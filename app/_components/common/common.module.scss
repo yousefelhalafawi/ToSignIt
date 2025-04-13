@@ -1,0 +1,76 @@
+@import "../../_style/mixin.scss"; // Imports the mixins.scss file
+
+$main-color: #534ee8;
+
+.container {
+  @include flexBox(row, center, center);
+  width: 100%;
+}
+
+.button-47 {
+  &:hover {
+    background-color: unset !important;
+    color: black;
+  }
+
+  align-items: center;
+  background: #00a47b;
+  border: 0 solid #e2e8f0;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+  color: white;
+  display: inline-flex;
+  font-family: Inter, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 0.5rem 1rem;
+  line-height: 24px;
+  margin: 0;
+  min-height: 1.5rem;
+  min-width: 2rem;
+  justify-content: center;
+  text-decoration: none;
+  width: auto;
+  border-radius: 8px;
+  cursor: pointer;
+
+  /* Mobile adjustments */
+  @media (max-width: 768px) {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+    width: 100%;
+  }
+}
+
+.button-66 {
+  background-color: $main-color;
+  border-radius: 4px;
+  border: 0;
+  box-shadow: rgba(1, 60, 136, 0.5) 0 -1px 3px 0 inset,
+    rgba(0, 44, 97, 0.1) 0 3px 6px 0;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "Space Grotesk", -apple-system, system-ui, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  transition: all 0.2s cubic-bezier(0.22, 0.61, 0.36, 1);
+
+  &:hover {
+    background-color: #103363;
+    transform: translateY(-2px);
+  }
+
+  /* Mobile adjustments */
+  @media (max-width: 768px) {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+    width: 100%;
+  }
+}

@@ -1,0 +1,140 @@
+@import "../../_style/variables.scss";
+
+.generalConditionsPage {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.pageHeader {
+  background: linear-gradient(135deg, $main-color, darken($main-color, 15%));
+  color: white;
+  padding: 3rem 0;
+  margin-bottom: 2rem;
+
+  @media (max-width: 768px) {
+    padding: 2rem 0;
+  }
+}
+
+.pageTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+
+  @media (max-width: 768px) {
+    font-size: 2rem;
+  }
+}
+
+.lastUpdate {
+  font-style: italic;
+  opacity: 0.8;
+  margin-bottom: 0;
+}
+
+.contentContainer {
+  flex: 1;
+  margin-bottom: 3rem;
+}
+
+.generalConditionsCard {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+
+.introText {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: $text-color;
+  line-height: 1.6;
+}
+
+.definitionsList {
+  margin-bottom: 2rem;
+}
+
+.definitionItem {
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  p {
+    color: $text-color;
+    line-height: 1.6;
+    margin-bottom: 0;
+  }
+}
+
+.termTitle {
+  color: $main-color;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.termTitle2 {
+  color: $main-color;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+  margin-left: 1.5rem;
+}
+.loadMoreContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.loadMoreButton {
+  background-color: $main-color;
+  color: white;
+  border: none;
+  padding: 0.75rem 2rem;
+  border-radius: 50px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba($main-color, 0.3);
+
+  &:hover {
+    background-color: darken($main-color, 10%);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba($main-color, 0.4);
+  }
+
+  &:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 8px rgba($main-color, 0.3);
+  }
+}
+
+// Responsive adjustments
+@media (max-width: 768px) {
+  .definitionsCard {
+    padding: 1rem;
+  }
+
+  .termTitle {
+    font-size: 1.1rem;
+  }
+
+  .introText {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .pageTitle {
+    font-size: 1.75rem;
+  }
+
+  .loadMoreButton {
+    width: 100%;
+  }
+}

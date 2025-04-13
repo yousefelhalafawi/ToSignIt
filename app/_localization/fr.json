@@ -1,0 +1,585 @@
+{
+  "navbar": {
+    "logoAlt": "Logo de l'application",
+    "news": "Actualités",
+    "dashboard": "Tableau de bord",
+    "logout": "Déconnexion",
+    "login": "Connexion",
+    "signUp": "Inscription"
+  },
+  "footer": {
+    "logoAlt": "Logo To SignIT",
+    "companyDescription": "To SignIT est une solution de signature numérique de premier plan, offrant une signature de documents sécurisée et efficace pour les entreprises de toutes tailles.",
+    "visitSocial": "Visitez notre {{social}}",
+    "usefulLinksTitle": "Liens Utiles",
+    "pricing": "Tarification",
+    "features": "Fonctionnalités",
+    "news": "Actualités",
+    "contactUsTitle": "Contactez-nous",
+    "address": "2 allée Louis Aragon, 91000 Evry Courcouronnes",
+    "newsletterTitle": "Newsletter",
+    "newsletterText": "Restez informé de nos dernières fonctionnalités et nouveautés.",
+    "rightsReserved": "© {{year}} To SignIT. Tous droits réservés."
+  },
+  "news": {
+    "Latest News": "Dernières nouvelles",
+    "Hot Topics": "Sujets chauds",
+    "Read full article": "Lire l'article complet",
+    "Close": "Fermer"
+  },
+  "briefCard": {
+    "title1": "Prêt à passer au ",
+    "title2": "numérique en toute légalité ?",
+    "title3": "Essayez To Sign It gratuitement pendant ",
+    "title4": "14 jours",
+    "title5": ", Chiffrement de bout en bout,",
+    "title6": "Auditabilité",
+    "title7": "complète, Certifié",
+    "title8": "ISO 27001",
+    "imageAlt1": "Processus de signature numérique sécurisé",
+    "imageAlt2": "Élément décoratif"
+  },
+  "features": {
+    "title1": "Pourquoi choisir",
+    "title2": "flexible et sécurisé,",
+    "title3": "To Sign",
+    "title4": "IT",
+    "title5": "pour en faire plus",
+    "feature1": {
+      "header": "Simplicité d’utilisation",
+      "phrase": "To Sign It offre une interface fluide et intuitive. Aucun besoin de formation : vous envoyez, signez et gérez vos documents en quelques clics seulement.",
+      "imgAlt": "Simplicité d’utilisation"
+    },
+    "feature2": {
+      "header": "Sécurité et conformité",
+      "phrase": "Chaque signature est cryptée, tracée et juridiquement valide. Conforme à la réglementation eIDAS, To Sign It garantit confidentialité, intégrité et sécurité de vos documents sensibles.",
+      "imgAlt": "Sécurité et conformité"
+    },
+    "feature3": {
+      "header": "Offres flexibles pour tous les besoins",
+      "phrase": "Des plans pensés pour les particuliers et les entreprises, avec options mensuelles ou annuelles, signatures simples ou avancées, selon votre rythme et votre volume d’utilisation.",
+      "imgAlt": "Offres flexibles pour tous les besoins"
+    }
+  },
+  "mainContent": {
+    "title": "Choisissez le meilleur service To SignIT",
+    "title1": "Choisissez le meilleur",
+    "title2": "Pour signer",
+    "title3": "IT",
+
+    "title4": " La solution de signature et de facturation électronique 100 % conforme en France et en Europe",
+    "title5": "Simplifiez, Sécurisez,",
+    "title6": "Signez",
+
+    "description": "Bienvenue sur To Sign It, votre partenaire de confiance pour la signature électronique et la facturation électronique, conçus pour répondre aux exigences légales françaises et européennes. Notre plateforme vous accompagne dans la dématérialisation sécurisée de vos documents, tout en assurant leur valeur juridique.",
+    "startTrial": "Commencer l'essai",
+    "seePricing": "Voir les tarifs",
+    "floatingCardText": "Document signé avec succès"
+  },
+  "moreFeatures": {
+    "title1": "Des fonctionnalités puissantes",
+    "title2": "vous permettront de",
+    "title3": "obtenir plus de solutions",
+    "advancedWorkflows": {
+      "title": "Flux de travail avancés",
+      "description": "Choisissez des connecteurs préconfigurés pour vos outils quotidiens préférés tels que Salesforce, Microsoft Word, Power Automate, Microsoft SharePoint et SAP."
+    },
+    "whiteLabeled": {
+      "title": "En marque blanche",
+      "description": "Gardez votre identité de marque lors de la création, de la signature ou de l'envoi de documents et maîtrisez l'ensemble de l'expérience de signature."
+    },
+    "packageSigning": {
+      "title": "Signature groupée",
+      "description": "Signez plusieurs documents ou ensembles de documents avec une seule signature pour gagner du temps et travailler efficacement."
+    },
+    "highTrustSignatures": {
+      "title": "Signatures à haute fiabilité",
+      "description": "Choisissez parmi une vaste sélection de méthodes de signature numérique et d'identification en fonction de vos besoins. Chaque type offre un niveau de légalité différent et une expérience utilisateur unique."
+    }
+  },
+  "packages": {
+    "viewAll": "Voir tous les forfaits",
+    "title": "Choisissez votre plan parfait",
+    "description": "Sélectionnez le forfait qui répond le mieux à vos besoins. Nous proposons des solutions sur mesure pour les particuliers et les entreprises."
+  },
+  "signDashboard": {
+    "title": "Envoyez, Signez, Gagnez du temps",
+    "description": "Simple, rapide, sécurisé, légal. To Sign It, la signature électronique intuitive, moderne, fiable, professionnelle, efficace, pratique et flexible.",
+    "button": "Commencer",
+    "dashboardImageAlt": "Aperçu du tableau de bord"
+  },
+  "signSection": {
+    "cardInfo1": {
+      "number": "180+",
+      "head": "Signature électronique certifiée",
+      "phrase": "Conforme au règlement eIDAS"
+    },
+    "cardInfo2": {
+      "number": "98%",
+      "head": "Facturation électronique",
+      "phrase": "Compatible PDP, PPF et OD"
+    },
+    "signature": {
+      "documentSigned": "Document signé par Marla Taniguchi",
+      "signatureTitle": "Vice-Présidente Marketing, CopyType Inc"
+    },
+    "videoThumbnailAlt": "Vignette vidéo"
+  },
+  "subscription": {
+    "basicSignatures": "Signatures de base :",
+    "otpSignatures": "Signatures OTP :",
+    "integrationSignatures": "Signatures d'intégration :",
+    "maxUsers": "Utilisateurs maximum :",
+    "includedFeatures": "Fonctionnalités incluses :",
+    "subscribeNow": "Souscrivez maintenant",
+    "individualPlans": "Forfaits individuels",
+    "companyPlans": "Forfaits entreprises",
+    "monthly": "Mensuel",
+    "yearly": "Annuel"
+  },
+  "contacts": {
+    "title": "Contacts",
+    "subtitle": "Ici, vous pouvez voir vos contacts favoris",
+    "newContact": "Nouveau contact",
+    "noContacts": "Aucun contact ajouté",
+    "delete": "Supprimer",
+    "errorFetching": "Échec de la récupération des contacts. Veuillez réessayer."
+  },
+  "contactModal": {
+    "phoneNumber": "Numéro de téléphone",
+    "phoneRequired": "Le numéro de téléphone est obligatoire",
+    "addNewContact": "Ajouter un nouveau contact",
+    "userName": "Nom d'utilisateur",
+    "enterUserName": "Entrez votre nom",
+    "nameRequired": "Le nom est requis",
+    "nameMinLength": "Le nom doit comporter au moins 5 caractères",
+    "nameMaxLength": "Le nom ne peut pas dépasser 20 caractères",
+    "namePattern": "Le nom ne doit contenir que des lettres, des chiffres et des espaces",
+    "userEmail": "Email de l'utilisateur",
+    "enterUserEmail": "Entrez votre email",
+    "emailRequired": "L'email est requis",
+    "emailPattern": "Veuillez entrer une adresse email valide",
+    "addContact": "Ajouter le contact",
+    "errorOccurred": "Une erreur s'est produite"
+  },
+  "newsAdmin": {
+    "header": "Actualités",
+    "titleLabel": "Titre",
+    "titlePlaceholder": "Entrez le titre",
+    "titleRequired": "Le titre est requis",
+    "titleMinLength": "Le titre doit comporter au moins 5 caractères",
+    "titleMaxLength": "Le titre ne peut pas dépasser 100 caractères",
+    "titlePattern": "Le titre doit contenir uniquement des lettres, des chiffres et des espaces",
+    "descriptionLabel": "Description",
+    "descriptionPlaceholder": "Entrez votre contenu",
+    "contentRequired": "Le contenu est requis",
+    "contentMinLength": "Le contenu doit comporter au moins 20 caractères",
+    "contentMaxLength": "Le contenu ne peut pas dépasser 500 caractères",
+    "uploadImageLabel": "Télécharger l'image",
+    "hotTopicsLabel": "Ajouter le post aux sujets chauds ?",
+    "loading": "chargement",
+    "submitButton": "Soumettre",
+    "errorOccurred": "Une erreur s'est produite",
+    "News Management": "Gestion des actualités",
+    "Hot Topics": "Sujets d'actualité",
+    "News": "Nouvelles"
+  },
+  "hotTopics": {
+    "table": {
+      "title": "Titre",
+      "createdAt": "Créé le",
+      "updatedAt": "Mis à jour le",
+      "actions": "Actions",
+      "update": "Mettre à jour",
+      "delete": "Supprimer"
+    },
+    "deleteModal": {
+      "title": "Supprimer le sujet chaud",
+      "body": "Êtes-vous sûr de vouloir supprimer ce sujet chaud ? Cette action est irréversible.",
+      "cancel": "Annuler",
+      "delete": "Supprimer"
+    },
+    "deleteError": "Une erreur s'est produite lors de la suppression."
+  },
+  "newsTab": {
+    "table": {
+      "title": "Titre",
+      "createdAt": "Créé le",
+      "updatedAt": "Mis à jour le",
+      "actions": "Actions",
+      "update": "Mettre à jour",
+      "delete": "Supprimer"
+    },
+    "modal": {
+      "deleteTitle": "Supprimer l'actualité",
+      "deleteBody": "Êtes-vous sûr de vouloir supprimer cette actualité ? Cette action est irréversible.",
+      "cancel": "Annuler",
+      "delete": "Supprimer"
+    },
+    "deleteError": "Une erreur s'est produite lors de la suppression."
+  },
+  "editNews": {
+    "pageTitle": "Actualités",
+    "editTitle": "Modifier l'actualité",
+    "fetchError": "Échec de la récupération des données de l'actualité. Veuillez réessayer.",
+    "genericError": "Une erreur s'est produite",
+    "titleLabel": "Titre",
+    "titlePlaceholder": "Entrez le titre",
+    "titleRequired": "Le titre est requis",
+    "titleMinLength": "Le titre doit comporter au moins 5 caractères",
+    "titleMaxLength": "Le titre ne peut pas dépasser 100 caractères",
+    "contentLabel": "Contenu",
+    "contentPlaceholder": "Entrez le contenu",
+    "contentRequired": "Le contenu est requis",
+    "contentMinLength": "Le contenu doit comporter au moins 5 caractères",
+    "uploadImageLabel": "Télécharger l'image",
+    "hotTopicsLabel": "Ajouter l'actualité aux sujets chauds ?",
+    "loading": "Chargement...",
+    "submit": "Soumettre"
+  },
+  "signaturePad": {
+    "header": "Sign",
+    "brand": "IT",
+    "selectSignatureType": "Sélectionnez le type de signature",
+    "basicSignature": "Signature de base",
+    "otpSignature": "Signature OTP",
+    "addContact": "Ajouter un contact",
+    "addMySignature": "Ajouter ma signature",
+    "addText": "Ajouter du texte",
+    "cancelAddText": "Annuler l'ajout de texte",
+    "uploadPdf": "Télécharger le PDF",
+    "chooseMyDocuments": "Choisissez parmi Mes documents",
+    "selectDocument": "Sélectionnez un document",
+    "uploadPdfPlaceholder": "Téléchargez un PDF pour commencer à signer",
+    "enterText": "Entrez du texte...",
+    "sending": "envoi...",
+    "submit": "Soumettre",
+    "signatureLabel": "Signature",
+    "yourSignatureLabel": "Votre signature"
+  },
+  "addContact": {
+    "title": "Trouver un contact",
+    "enterEmail": "Entrez l'email",
+    "emailRequired": "L'email est requis",
+    "invalidEmailFormat": "Format d'email invalide",
+    "phoneNumber": "Numéro de téléphone",
+    "addContactButton": "Ajouter le contact",
+    "closeButton": "Fermer",
+    "noContactsFound": "aucun contact trouvé"
+  },
+  "cookieConsent": {
+    "buttonText": "J'ACCEPTE",
+    "text": "Notre site utilise des cookies pour améliorer votre expérience de navigation en personnalisant le contenu, en améliorant la fonctionnalité et en analysant les performances du site. Les cookies nous aident à retenir vos préférences et à vous fournir des informations pertinentes, assurant ainsi une expérience utilisateur fluide et efficace. En continuant d'utiliser notre site, vous consentez à l'utilisation des cookies conformément à notre politique de confidentialité. Vous pouvez ajuster vos paramètres de cookies à tout moment via votre navigateur. Veuillez noter que la désactivation des cookies peut affecter la fonctionnalité de certaines fonctionnalités, limitant ainsi votre expérience globale sur notre site."
+  },
+  "loginPage": {
+    "logoAlt": "Logo de connexion",
+    "loginHeader": "Connectez-vous à votre compte",
+    "termsAndConditions": "Conditions générales"
+  },
+  "login": {
+    "emailLabel": "Email",
+    "passwordLabel": "Mot de passe",
+    "forgetPassword": "mot de passe oublié ?",
+    "submitButton": "Se connecter",
+    "noAccount": "Vous n'avez pas de compte ?",
+    "register": "S'inscrire"
+  },
+  "signup": {
+    "logo": "Join To Sign It",
+    "alt": "Sign Up",
+    "heading": "And it's done!",
+    "testimonial": "From anywhere you can quickly make electronic signatures and safely sign your digital documents."
+  },
+  "registerForm": {
+    "firstName": "Prénom",
+    "lastName": "Nom de famille",
+    "email": "Email",
+    "jobTitle": "Poste",
+    "phoneNumber": "Numéro de téléphone",
+    "password": "Mot de passe",
+    "companyName": "Nom de l'entreprise",
+    "companyEmail": "Email de l'entreprise",
+    "companyNumber": "Numéro de l'entreprise",
+    "passwordCustomError": "Le mot de passe doit contenir au moins une lettre majuscule, une lettre minuscule, un chiffre et un caractère spécial (!?@#$~%^&*_.\\-=+)",
+    "submit": "S'inscrire",
+    "alreadyHaveAccount": "Vous avez déjà un compte ?",
+    "loginLink": "Connexion"
+  },
+  "toggle": {
+    "joinAs": "Rejoindre en tant que:"
+  },
+  "paymentSuccess": {
+    "successHeader": "Succès",
+    "successMessage": "Votre paiement a été traité avec succès",
+    "redirectMessage": "Vous serez automatiquement redirigé vers la page principale, ou cliquez sur le bouton ci-dessous.",
+    "doneButton": "Terminé"
+  },
+  "paymentFailure": {
+    "failureHeader": "Transaction Annulée",
+    "failureMessage": "Votre paiement n'a pas pu être traité",
+    "failureDetails": "Veuillez vérifier les détails de votre paiement et réessayer, ou contactez le support pour obtenir de l'aide.",
+    "tryAgain": "Réessayer"
+  },
+  "otpVerification": {
+    "title": "Vérifiez votre compte",
+    "subtitle": "Un code de vérification à 6 chiffres a été envoyé à votre contact enregistré. Veuillez le saisir ci-dessous.",
+    "verifyButton": "Vérifier le compte",
+    "success": "Signature réussie",
+    "invalidOtp": "OTP invalide. Veuillez réessayer."
+  },
+  "forgetPassword": {
+    "emailLabel": "Email",
+    "resetButton": "Réinitialiser mon mot de passe",
+    "successHeader": "Le mail a été envoyé avec succès",
+    "instructions1": "- Nous vous avons envoyé par email des instructions pour réinitialiser votre mot de passe, si un compte existe avec l'email que vous avez saisi. Vous devriez les recevoir sous peu.",
+    "instructions2": "- Si vous ne recevez pas l'email, assurez-vous d'avoir saisi l'adresse avec laquelle vous vous êtes inscrit et vérifiez votre dossier de spam."
+  },
+  "resetForm": {
+    "emailLabel": "Email",
+    "passwordLabel": "Mot de passe",
+    "passwordCustomError": "Le mot de passe doit contenir au moins une lettre majuscule, une lettre minuscule, un chiffre et un caractère spécial (!?@#$~%^&*_.\\-=+)",
+    "changePasswordButton": "Changer mon mot de passe"
+  },
+  "profileSettings": {
+    "greeting": "Hello, {{name}}",
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "daysAgo": "{{count}} days ago",
+    "weeksAgo": "{{count}} weeks ago",
+    "monthsAgo": "{{count}} months ago",
+    "yearsAgo": "{{count}} years ago",
+    "monthNames": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "hello": "Bonjour, {{userName}}",
+    "subscriptionDetails": "Détails de l'abonnement",
+    "status": "Statut",
+    "active": "Actif",
+    "notActive": "Non actif",
+    "startDate": "Date de début",
+    "renewalDate": "Date de renouvellement",
+    "billingCycle": "Cycle de facturation",
+    "amount": "Montant",
+    "otpSignatureRemaining": "Signatures OTP restantes",
+    "increaseOtpSignatures": "Augmenter les signatures OTP",
+    "renewPackage": "Renouveler le forfait",
+    "edit": "Modifier",
+    "view": "Voir",
+    "otpModalTitle": "Augmenter les signatures OTP",
+    "otpModalText": "Combien de signatures OTP souhaitez-vous ajouter?",
+    "cancel": "Annuler",
+    "confirm": "Confirmer",
+    "increaseOtpSignaturesError": "Échec de l'augmentation des OTP. Veuillez réessayer plus tard!"
+  },
+  "changePassword": {
+    "oldPassword": "Old Password",
+    "newPassword": "New Password",
+    "passwordError": "Password must contain at least an uppercase letter, lowercase letter, digit, and special character (!?@#$~%^&*_.\\-=+)",
+    "submitButton": "Change password"
+  },
+  "editProfile": {
+    "firstName": "Prénom",
+    "lastName": "Nom de famille",
+    "email": "E-mail",
+    "phoneNumber": "Numéro de téléphone",
+    "jobTitle": "Poste",
+    "editButton": "Modifier",
+    "noChanges": "Aucun changement détecté"
+  },
+  "profile": {
+    "firstName": "Prénom",
+    "lastName": "Nom de famille",
+    "email": "E-mail",
+    "phoneNumber": "Numéro de téléphone",
+    "jobTitle": "Poste",
+    "companyName": "Nom de l'entreprise",
+    "companyRemoved": "L'entreprise a été supprimée avec succès.",
+    "deleteFailed": "Échec de la suppression de l'entreprise. Veuillez réessayer.",
+    "unexpectedError": "Une erreur inattendue s'est produite.",
+    "confirmDeletionTitle": "Confirmer la suppression",
+    "confirmDeletionMessage": "Êtes-vous sûr de vouloir supprimer votre association avec l'entreprise \"{{company}}\" ?",
+    "delete": "Supprimer",
+    "deleting": "Suppression...",
+    "cancel": "Annuler",
+    "greeting": "Bonjour, {{name}}",
+    "myEmail": "Mon adresse e-mail"
+  },
+  "companyProfile": {
+    "companyName": "Nom de l'entreprise"
+  },
+  "paginatedTable": {
+    "addUser": "Ajouter un utilisateur",
+    "userCode": "Code utilisateur",
+    "email": "E-mail",
+    "actions": "Actions",
+    "previous": "Précédent",
+    "next": "Suivant",
+    "userEmail": "E-mail de l'utilisateur"
+  },
+  "time": {
+    "today": "Aujourd'hui",
+    "yesterday": "Hier",
+    "daysAgo": "Il y a {{count}} jours",
+    "weeksAgo": "Il y a {{count}} semaines",
+    "monthsAgo": "Il y a {{count}} mois",
+    "yearsAgo": "Il y a {{count}} ans"
+  },
+  "months": {
+    "january": "Janvier",
+    "february": "Février",
+    "march": "Mars",
+    "april": "Avril",
+    "may": "Mai",
+    "june": "Juin",
+    "july": "Juillet",
+    "august": "Août",
+    "september": "Septembre",
+    "october": "Octobre",
+    "november": "Novembre",
+    "december": "Décembre"
+  },
+  "titles": {
+    "your_documents": "Vos Documents"
+  },
+  "buttons": {
+    "upload": "Télécharger le document",
+    "download": "Télécharger",
+    "cancel": "Annuler",
+    "delete": "Supprimer"
+  },
+  "labels": {
+    "created_at": "Créé le",
+    "untitled": "Document sans titre"
+  },
+  "errors": {
+    "invalid_pdf": "Veuillez sélectionner un fichier PDF valide.",
+    "upload_failed": "Échec du téléchargement du document.",
+    "select_pdf": "Veuillez sélectionner un fichier PDF avant de télécharger.",
+    "load_failed": "Erreur de chargement des documents. Veuillez réessayer plus tard."
+  },
+  "loading": "Chargement...",
+  "modals": {
+    "upload_title": "Télécharger un document",
+    "select_pdf": "Sélectionnez un fichier PDF",
+    "delete_title": "Confirmer la suppression",
+    "delete_confirm": "Êtes-vous sûr de vouloir supprimer ce document ? Cette action est irréversible."
+  },
+  "document": {
+    "loading": "Chargement...",
+    "errorLoadingDocuments": "Erreur lors du chargement des documents. Veuillez réessayer plus tard.",
+    "noDocumentsFoundTitle": "Aucun document trouvé",
+    "noDocumentsFoundText": "Vous n'avez pas encore de documents. Téléchargez votre premier document pour commencer.",
+    "uploadDocument": "Téléverser un document",
+    "yourDocuments": "Vos documents",
+    "untitledDocument": "Document sans titre",
+    "createdAt": "Créé le :",
+    "expiryDate": "Date d'expiration :",
+    "download": "Télécharger",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "confirmDeletion": "Confirmer la suppression",
+    "deleteConfirmationText": "Êtes-vous sûr de vouloir supprimer ce document ? Cette action est irréversible.",
+    "document": "Taille du document",
+    "selectPDFFile": "Sélectionnez un fichier PDF",
+    "pleaseSelectAValidPDFFile": "Veuillez sélectionner un fichier PDF valide.",
+    "failedToUploadDocument": "Échec du téléchargement du document.",
+    "pleaseSelectAPDFFileBeforeUploading": "Veuillez sélectionner un fichier PDF avant de téléverser.",
+    "failedToVerifyDocument": "Échec de la vérification du document.",
+    "notApplicable": "N/D"
+  },
+  "mainRequests": {
+    "requestsTitle": "Demandes",
+    "pendingTab": "En attente",
+    "signedTab": "Signé",
+    "buttons": {
+      "verifyDocument": "Vérifier le document",
+      "cancel": "Annuler",
+      "confirm": "Confirmer"
+    },
+    "placeholders": {
+      "requestNumber": "Numéro de demande"
+    },
+    "labels": {
+      "of": "sur",
+      "requests": "demandes",
+      "noRequestsAvailable": "Aucune demande disponible",
+      "requestNumber": "Numéro de demande",
+      "newRequest": "Nouvelle demande",
+      "created": "Créée",
+      "by": "par",
+      "unknown": "Inconnu"
+    },
+    "timeAgo": {
+      "today": "Aujourd'hui",
+      "yesterday": "Hier",
+      "daysAgo": "il y a {{count}} jours",
+      "weeksAgo": "il y a {{count}} semaines",
+      "monthsAgo": "il y a {{count}} mois",
+      "yearsAgo": "il y a {{count}} ans"
+    },
+    "errors": {
+      "noRequestFoundWithThisNumber": "Aucune demande trouvée avec ce numéro",
+      "pleaseSelectAValidPDFFile": "Veuillez sélectionner un fichier PDF valide.",
+      "failedToVerifyDocument": "Échec de la vérification du document.",
+      "pleaseSelectAPDFFileBeforeUploading": "Veuillez sélectionner un fichier PDF avant de téléverser.",
+      "failedToSignRequest": "Échec de la signature de la demande"
+    },
+    "messages": {
+      "requestSignedSuccessfully": "Demande signée avec succès",
+      "documentVerifiedSuccessfully": "Document vérifié avec succès"
+    },
+    "modals": {
+      "confirmSign": {
+        "title": "Confirmer la signature",
+        "warningTitle": "Avertissement : veuillez confirmer",
+        "message": "Êtes-vous sûr de vouloir signer cette demande avec le numéro :",
+        "note": "Note : Cette action est irréversible après la signature."
+      },
+      "signedDocumentTitle": "Document signé",
+      "verifyDocument": {
+        "title": "Vérifier le document",
+        "selectPDF": "Sélectionnez un fichier PDF"
+      }
+    }
+  },
+  "leftSide": {
+    "home": "Accueil",
+    "signature": "Signature",
+    "profile": "Profil",
+    "password": "Mot de passe",
+    "news": "Actualités",
+    "createNews": "Créer une actualité",
+    "editNews": "Modifier l'actualité",
+    "companyManagement": "Gestion de l'entreprise",
+    "packages": "Forfaits",
+    "contacts": "Contacts",
+    "addFile": "Ajouter un fichier",
+    "myDocuments": "Mes documents"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Remplissez le formulaire ci-dessous et nous vous répondrons dès que possible.",
+    "name": "Nom",
+    "email": "Email",
+    "phone": "Numéro de téléphone",
+    "phonePlaceholder": "(123) 456-7890",
+    "message": "Message",
+    "messagePlaceholder": "Comment pouvons-nous vous aider ?",
+    "messageRequired": "Le message est requis",
+    "send": "Envoyer le message",
+    "sending": "Envoi...",
+    "success": "Nous vous répondrons dès que possible.",
+    "error": "Votre message n'a pas pu être envoyé. Veuillez réessayer."
+  }
+}

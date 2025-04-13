@@ -1,0 +1,145 @@
+.signatureContainer {
+  padding: 2.5rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
+  max-width: 800px;
+  margin: 2rem auto;
+}
+
+.tabContent {
+  position: relative;
+  min-height: 300px;
+}
+
+.signatureCanvas {
+  border: 2px dashed #e2e8f0;
+  border-radius: 8px;
+  width: 200px;
+  height: 150px;
+  transition: all 0.2s ease;
+  background-color: white;
+  cursor: crosshair;
+
+  &:hover {
+    border-color: #94a3b8;
+  }
+}
+
+.disabledCanvas {
+  @extend .signatureCanvas;
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+.colorSelector {
+  margin-top: 1rem;
+  width: 200px;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+  justify-content: flex-end;
+}
+
+.button {
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  border: none;
+  font-weight: 600;
+  font-family: "Space Grotesk", -apple-system, system-ui, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol" !important;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.2s ease;
+  font-size: 0.875rem;
+
+  svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  &.primary {
+    background: #0066ff;
+    color: white;
+
+    &:hover {
+      background: #0052cc;
+      transform: translateY(-1px);
+    }
+
+    &:active {
+      transform: translateY(0);
+    }
+  }
+
+  &.secondary {
+    background: #f1f5f9;
+    color: #475569;
+
+    &:hover {
+      background: #e2e8f0;
+      transform: translateY(-1px);
+    }
+
+    &:active {
+      transform: translateY(0);
+    }
+  }
+}
+
+.helpText {
+  color: #64748b;
+  font-size: 0.875rem;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  svg {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+.previewContainer {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border-radius: 8px;
+  background: #f8fafc;
+
+  h4 {
+    color: #475569;
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+}
+
+.signaturePreview {
+  padding: 1rem;
+  background: white;
+  border-radius: 6px;
+  border: 1px solid #e2e8f0;
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Homemade Apple", cursive;
+  font-size: 1.5rem;
+  color: #1e293b;
+}
+
+.transparentBg {
+  background-image: linear-gradient(45deg, #f0f0f0 25%, transparent 25%),
+    linear-gradient(-45deg, #f0f0f0 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, #f0f0f0 75%),
+    linear-gradient(-45deg, transparent 75%, #f0f0f0 75%);
+  background-size: 20px 20px;
+  background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+}

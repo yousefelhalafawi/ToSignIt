@@ -1,0 +1,603 @@
+{
+  "navbar": {
+    "logoAlt": "App Logo",
+    "news": "News",
+    "dashboard": "Dashboard",
+    "logout": "Logout",
+    "login": "Login",
+    "signUp": "Sign Up"
+  },
+  "footer": {
+    "logoAlt": "To SignIT Logo",
+    "companyDescription": "To SignIT is a leading digital signature solution, providing secure and efficient document signing for businesses of all sizes.",
+    "visitSocial": "Visit our {{social}}",
+    "usefulLinksTitle": "Useful Links",
+    "pricing": "Pricing",
+    "features": "Features",
+    "news": "News",
+    "contactUsTitle": "Contact Us",
+    "address": "2 allée Louis Aragon, 91000 Evry Courcouronnes",
+    "newsletterTitle": "Newsletter",
+    "newsletterText": "Stay updated with our latest features and releases.",
+    "rightsReserved": "© {{year}} To SignIT. All rights reserved."
+  },
+  "news": {
+    "Latest News": "Latest News",
+    "Hot Topics": "Hot Topics",
+    "Read full article": "Read full article",
+    "Close": "Close"
+  },
+  "briefCard": {
+    "title1": "Ready to go ",
+    "title2": "digital legally?",
+    "title3": "Try To Sign It for free for  ",
+    "title4": "14 days",
+    "title5": ", end-to-end encryption, full ",
+    "title6": "auditability",
+    "title7": "complète, Certifié",
+    "title8": "ISO 27001",
+
+    "imageAlt1": "Secure digital signing process",
+    "imageAlt2": "Decorative element"
+  },
+  "features": {
+    "title1": "Why choose",
+    "title2": "Flexible, and Secure",
+    "title3": "To Sign",
+    "title4": "IT",
+    "title5": "to do more",
+    "feature1": {
+      "header": "Ease of use",
+      "phrase": "To Sign It offers a smooth and intuitive interface. No training needed: just send, sign, and manage your documents in a few clicks.",
+      "imgAlt": "Ease of use"
+    },
+    "feature2": {
+      "header": "Security and compliance",
+      "phrase": "Every signature is encrypted, tracked, and legally valid. Compliant with eIDAS regulations, To Sign It guarantees confidentiality, integrity, and the security of your sensitive documents.",
+      "imgAlt": "Security and compliance"
+    },
+    "feature3": {
+      "header": "Flexible plans for all needs",
+      "phrase": "Plans designed for both individuals and businesses, with monthly or annual options, simple or advanced signatures, depending on your pace and usage volume.",
+      "imgAlt": "Flexible plans for all needs"
+    }
+  },
+  "mainContent": {
+    "title1": "Select The Top",
+    "title2": "To Sign",
+    "title3": "IT",
+    "title4": "The electronic signature and invoicing solution 100% compliant in France and Europe",
+    "title5": "Simplify, Secure, ",
+    "title6": "Sign",
+    "description": "Welcome to To Sign It, your trusted partner for electronic signatures and electronic invoicing, designed to meet French and European legal requirements. Our platform supports you in the secure digitization of your documents while ensuring their legal validity.",
+    "startTrial": "Start Trial",
+    "seePricing": "See Pricing",
+    "floatingCardText": "Document signed successfully"
+  },
+  "moreFeatures": {
+    "title1": "Powerful features",
+    "title2": "will enable you to",
+    "title3": "get more solutions",
+    "advancedWorkflows": {
+      "title": "Advanced Workflows",
+      "description": "Choose pre-built connectors for your favorite everyday tools like Salesforce, Microsoft Word, Power Automate, Microsoft SharePoint and SAP."
+    },
+    "whiteLabeled": {
+      "title": "White Labeled",
+      "description": "Keep your branding when creating, signing or sending documents and own the entire signing experience."
+    },
+    "packageSigning": {
+      "title": "Package Signing",
+      "description": "Sign multiple documents or packages of documents with a single signature to save time and work efficiently."
+    },
+    "highTrustSignatures": {
+      "title": "High-Trust Signatures",
+      "description": "Choose from a vast selection of digital signing and identification methods based on your needs. Each type having a different level of legality and its own unique user experience."
+    }
+  },
+  "packages": {
+    "viewAll": "View All Packages",
+    "title": "Choose Your Perfect Plan",
+    "description": "Select the package that best suits your needs. We offer tailored solutions for both individuals and companies."
+  },
+  "signDashboard": {
+    "title": "Send, Sign, Save time",
+    "description": "Simple, fast, secure, legal. To Sign It — the intuitive, modern, reliable, professional, efficient, practical, and flexible electronic signature.",
+    "button": "Get Started",
+    "dashboardImageAlt": "Dashboard preview"
+  },
+  "signSection": {
+    "cardInfo1": {
+      "number": "180+",
+      "head": "Certified electronic signature",
+      "phrase": "Compliant with eIDAS regulation"
+    },
+    "cardInfo2": {
+      "number": "98%",
+      "head": "Electronic invoicing",
+      "phrase": "Compatible with PDP, PPF, and OD"
+    },
+    "signature": {
+      "documentSigned": "Document signed by Marla Taniguchi",
+      "signatureTitle": "VP of Marketing, CopyType Inc"
+    },
+    "videoThumbnailAlt": "Video thumbnail"
+  },
+  "subscription": {
+    "basicSignatures": "Basic Signatures:",
+    "otpSignatures": "OTP Signatures:",
+    "integrationSignatures": "Integration Signatures:",
+    "maxUsers": "Max Users:",
+    "includedFeatures": "Included Features:",
+    "subscribeNow": "Subscribe Now",
+    "individualPlans": "Individual Plans",
+    "companyPlans": "Company Plans",
+    "monthly": "Monthly",
+    "yearly": "Yearly"
+  },
+  "contacts": {
+    "title": "Contacts",
+    "subtitle": "Here you can see your favorite contacts",
+    "newContact": "New Contact",
+    "noContacts": "No Contacts Added",
+    "delete": "Delete",
+    "errorFetching": "Failed to fetch contacts. Please try again."
+  },
+  "contactModal": {
+    "phoneRequired": "Phone number is required",
+    "phoneNumber": "Phone Number",
+    "addNewContact": "Add New Contact",
+    "userName": "User Name",
+    "enterUserName": "Enter your name",
+    "nameRequired": "Name is required",
+    "nameMinLength": "Name must be at least 5 characters",
+    "nameMaxLength": "Name cannot exceed 20 characters",
+    "namePattern": "Name must only contain letters, numbers, and spaces",
+    "userEmail": "User Email",
+    "enterUserEmail": "Enter your email",
+    "emailRequired": "Email is required",
+    "emailPattern": "Please enter a valid email address",
+    "addContact": "Add Contact",
+    "errorOccurred": "An error has occurred"
+  },
+  "newsAdmin": {
+    "header": "News",
+    "titleLabel": "Title",
+    "titlePlaceholder": "Enter the title",
+    "titleRequired": "Title is required",
+    "titleMinLength": "Title must be at least 5 characters",
+    "titleMaxLength": "Title cannot exceed 100 characters",
+    "titlePattern": "Title must only contain letters, numbers, and spaces",
+    "descriptionLabel": "Description",
+    "descriptionPlaceholder": "Enter your content",
+    "contentRequired": "Content is required",
+    "contentMinLength": "Content must be at least 20 characters",
+    "contentMaxLength": "Content cannot exceed 500 characters",
+    "uploadImageLabel": "Upload Image",
+    "hotTopicsLabel": "Add the post to Hot topics?",
+    "loading": "loading",
+    "submitButton": "Submit",
+    "errorOccurred": "An error has occurred",
+    "News Management": "News Management",
+    "Hot Topics": "Hot Topics",
+    "News": "News"
+  },
+  "hotTopics": {
+    "table": {
+      "title": "Title",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "actions": "Actions",
+      "update": "Update",
+      "delete": "Delete"
+    },
+    "deleteModal": {
+      "title": "Delete Hot Topic",
+      "body": "Are you sure you want to delete this hot topic? This action cannot be undone.",
+      "cancel": "Cancel",
+      "delete": "Delete"
+    },
+    "deleteError": "An error occurred while deleting."
+  },
+  "newsTab": {
+    "table": {
+      "title": "Title",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "actions": "Actions",
+      "update": "Update",
+      "delete": "Delete"
+    },
+    "modal": {
+      "deleteTitle": "Delete News",
+      "deleteBody": "Are you sure you want to delete this news item? This action cannot be undone.",
+      "cancel": "Cancel",
+      "delete": "Delete"
+    },
+    "deleteError": "An error occurred while deleting."
+  },
+  "editNews": {
+    "pageTitle": "News",
+    "editTitle": "Edit News",
+    "fetchError": "Failed to fetch news data. Please try again.",
+    "genericError": "An error has occurred",
+    "titleLabel": "Title",
+    "titlePlaceholder": "Enter the title",
+    "titleRequired": "Title is required",
+    "titleMinLength": "Title must be at least 5 characters",
+    "titleMaxLength": "Title cannot exceed 100 characters",
+    "contentLabel": "Content",
+    "contentPlaceholder": "Enter the Content",
+    "contentRequired": "Content is required",
+    "contentMinLength": "Content must be at least 5 characters",
+    "uploadImageLabel": "Upload Image",
+    "hotTopicsLabel": "Add the post to Hot topics?",
+    "loading": "Loading...",
+    "submit": "Submit"
+  },
+  "signaturePad": {
+    "header": "Sign",
+    "brand": "IT",
+    "selectSignatureType": "Select Signature Type",
+    "basicSignature": "Basic Signature",
+    "otpSignature": "OTP Signature",
+    "addContact": "Add Contact",
+    "addMySignature": "Add My Signature",
+    "addText": "Add Text",
+    "cancelAddText": "Cancel Add Text",
+    "uploadPdf": "Upload PDF",
+    "chooseMyDocuments": "Choose from My Documents",
+    "selectDocument": "Select a document",
+    "uploadPdfPlaceholder": "Upload a PDF to start signing",
+    "enterText": "Enter text...",
+    "sending": "sending...",
+    "submit": "Submit",
+    "signatureLabel": "Signature",
+    "yourSignatureLabel": "Your signature"
+  },
+  "addContact": {
+    "title": "Find a Contact",
+    "enterEmail": "Enter email",
+    "emailRequired": "Email is required",
+    "invalidEmailFormat": "Invalid email format",
+    "phoneNumber": "Phone Number",
+    "addContactButton": "Add Contact",
+    "closeButton": "Close",
+    "noContactsFound": "no contacts found"
+  },
+  "cookieConsent": {
+    "buttonText": "I ACCEPT",
+    "text": "Our website uses cookies to enhance your browsing experience by personalizing content, improving functionality, and analyzing site performance. Cookies help us remember your preferences and provide you with relevant information, ensuring a seamless and efficient user journey. By continuing to use our website, you consent to the use of cookies in accordance with our privacy policy. You can adjust your cookie settings at any time through your browser. Please note that disabling cookies may affect the functionality of certain features, limiting your overall experience on our site."
+  },
+  "loginPage": {
+    "logoAlt": "Login Logo",
+    "loginHeader": "Login to your account",
+    "termsAndConditions": "Terms and Conditions"
+  },
+  "login": {
+    "emailLabel": "Email",
+    "passwordLabel": "Password",
+    "forgetPassword": "forget password?",
+    "submitButton": "Login",
+    "noAccount": "Don't you have an account?",
+    "register": "Register"
+  },
+  "signup": {
+    "logo": "Join To Sign It",
+    "alt": "Sign Up",
+    "heading": "And it's done!",
+    "testimonial": "From anywhere you can quickly make electronic signatures and safely sign your digital documents."
+  },
+  "registerForm": {
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "jobTitle": "Job Title",
+    "phoneNumber": "Phone Number",
+    "password": "Password",
+    "companyName": "Company Name",
+    "companyEmail": "Company Email",
+    "companyNumber": "Company Number",
+    "passwordCustomError": "Password must contain at least an uppercase letter, lowercase letter, digit, and special character (!?@#$~%^&*_.\\-=+)",
+    "submit": "Sign up",
+    "alreadyHaveAccount": "Already have an account?",
+    "loginLink": "Login"
+  },
+  "toggle": {
+    "joinAs": "Join as:"
+  },
+  "paymentSuccess": {
+    "successHeader": "Success",
+    "successMessage": "Your payment has been processed successfully",
+    "redirectMessage": "You will be automatically redirected to the main page, or click the button below.",
+    "doneButton": "Done"
+  },
+  "paymentFailure": {
+    "failureHeader": "Transaction Canceled",
+    "failureMessage": "Your payment could not be processed",
+    "failureDetails": "Please check your payment details and try again, or contact support for assistance.",
+    "tryAgain": "Try Again"
+  },
+  "otpVerification": {
+    "title": "Verify Your Account",
+    "subtitle": "A 6-digit verification code was sent to your registered contact. Please enter it below.",
+    "verifyButton": "Verify Account",
+    "success": "Signed successfully",
+    "invalidOtp": "Invalid OTP. Please try again."
+  },
+  "forgetPassword": {
+    "emailLabel": "Email",
+    "resetButton": "Reset my password",
+    "successHeader": "Mail has been sent successfully",
+    "instructions1": "- We've emailed you instructions for setting your password, if an account exists with the email you entered. You should receive them shortly.",
+    "instructions2": "- If you don't receive an email, please make sure you've entered the address you registered with, and check your spam folder."
+  },
+  "resetForm": {
+    "emailLabel": "Email",
+    "passwordLabel": "Password",
+    "passwordCustomError": "Password must contain at least an uppercase letter, lowercase letter, digit, and special character (!?@#$~%^&*_.\\-=+)",
+    "changePasswordButton": "Change my password"
+  },
+  "profileSettings": {
+    "greeting": "Hello, {{name}}",
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "daysAgo": "{{count}} days ago",
+    "weeksAgo": "{{count}} weeks ago",
+    "monthsAgo": "{{count}} months ago",
+    "yearsAgo": "{{count}} years ago",
+    "monthNames": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "hello": "Hello, {{userName}}",
+    "subscriptionDetails": "Subscription Details",
+    "status": "Status",
+    "active": "Active",
+    "notActive": "Not active",
+    "startDate": "Start Date",
+    "renewalDate": "Renewal Date",
+    "billingCycle": "Billing Cycle",
+    "amount": "Amount",
+    "otpSignatureRemaining": "OTP Signature Remaining",
+    "increaseOtpSignatures": "Increase OTP signatures",
+    "renewPackage": "Renew Package",
+    "edit": "Edit",
+    "view": "View",
+    "otpModalTitle": "Increase OTP Signatures",
+    "otpModalText": "How many OTP signatures do you want to add?",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "increaseOtpSignaturesError": "Failed to increase OTP. Please try again later!"
+  },
+  "changePassword": {
+    "oldPassword": "Old Password",
+    "newPassword": "New Password",
+    "passwordError": "Password must contain at least an uppercase letter, lowercase letter, digit, and special character (!?@#$~%^&*_.\\-=+)",
+    "submitButton": "Change password"
+  },
+  "editProfile": {
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "phoneNumber": "Phone Number",
+    "jobTitle": "Job Title",
+    "editButton": "Edit",
+    "noChanges": "No changes detected"
+  },
+  "profile": {
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "phoneNumber": "Phone Number",
+    "jobTitle": "Job Title",
+    "companyName": "Company Name",
+    "companyRemoved": "Company has been successfully removed.",
+    "deleteFailed": "Failed to delete the company. Please try again.",
+    "unexpectedError": "An unexpected error occurred.",
+    "confirmDeletionTitle": "Confirm Deletion",
+    "confirmDeletionMessage": "Are you sure you want to remove your association with the company \"{{company}}\"?",
+    "delete": "Delete",
+    "deleting": "Deleting...",
+    "cancel": "Cancel",
+    "greeting": "Hello, {{name}}",
+    "myEmail": "My Email Address"
+  },
+  "companyProfile": {
+    "companyName": "Company Name"
+  },
+  "paginatedTable": {
+    "addUser": "Add User",
+    "userCode": "User Code",
+    "email": "Email",
+    "actions": "Actions",
+    "previous": "Previous",
+    "next": "Next",
+    "userEmail": "User Email"
+  },
+  "common": {
+    "cancel": "Cancel",
+    "confirm": "Confirm"
+  },
+  "requests": {
+    "title": "Requests",
+    "pending": "Pending",
+    "signed": "Signed",
+    "requestNumber": "Request Number",
+    "newRequest": "New Request",
+    "noRequests": "No requests available",
+    "noRequestFound": "No request found with this request number",
+    "signedSuccessfully": "Request signed successfully",
+    "failedToSign": "Failed to sign request",
+    "confirmSign": "Confirm Sign",
+    "signedDocument": "Signed Document",
+    "view": "View",
+    "download": "Download",
+    "documentPreview": "Document Preview"
+  },
+  "time": {
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "daysAgo": "{{count}} days ago",
+    "weeksAgo": "{{count}} weeks ago",
+    "monthsAgo": "{{count}} months ago",
+    "yearsAgo": "{{count}} years ago"
+  },
+  "months": {
+    "january": "January",
+    "february": "February",
+    "march": "March",
+    "april": "April",
+    "may": "May",
+    "june": "June",
+    "july": "July",
+    "august": "August",
+    "september": "September",
+    "october": "October",
+    "november": "November",
+    "december": "December"
+  },
+  "titles": {
+    "your_documents": "Your Documents"
+  },
+  "buttons": {
+    "upload": "Upload Document",
+    "download": "Download",
+    "cancel": "Cancel",
+    "delete": "Delete"
+  },
+  "labels": {
+    "created_at": "Created at",
+    "untitled": "Untitled Document"
+  },
+  "errors": {
+    "invalid_pdf": "Please select a valid PDF file.",
+    "upload_failed": "Failed to upload document.",
+    "select_pdf": "Please select a PDF file before uploading.",
+    "load_failed": "Error loading documents. Please try again later."
+  },
+  "loading": "Loading...",
+  "modals": {
+    "upload_title": "Upload Document",
+    "select_pdf": "Select PDF File",
+    "delete_title": "Confirm Deletion",
+    "delete_confirm": "Are you sure you want to delete this document? This action cannot be undone."
+  },
+  "document": {
+    "loading": "Loading...",
+    "errorLoadingDocuments": "Error loading documents. Please try again later.",
+    "noDocumentsFoundTitle": "No Documents Found",
+    "noDocumentsFoundText": "You don't have any documents yet. Upload your first document to get started.",
+    "uploadDocument": "Upload Document",
+    "yourDocuments": "Your Documents",
+    "untitledDocument": "Untitled Document",
+    "createdAt": "Created at:",
+    "expiryDate": "Expiry date:",
+    "download": "Download",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "confirmDeletion": "Confirm Deletion",
+    "deleteConfirmationText": "Are you sure you want to delete this document? This action cannot be undone.",
+    "document": "Document size",
+    "selectPDFFile": "Select PDF File",
+    "pleaseSelectAValidPDFFile": "Please select a valid PDF file.",
+    "failedToUploadDocument": "Failed to upload document.",
+    "pleaseSelectAPDFFileBeforeUploading": "Please select a PDF file before uploading.",
+    "failedToVerifyDocument": "Failed to verify document.",
+    "notApplicable": "N/A"
+  },
+  "mainRequests": {
+    "requestsTitle": "Requests",
+    "pendingTab": "Pending",
+    "signedTab": "Signed",
+    "buttons": {
+      "verifyDocument": "Verify Document",
+      "cancel": "Cancel",
+      "confirm": "Confirm"
+    },
+    "placeholders": {
+      "requestNumber": "Request Number"
+    },
+    "labels": {
+      "of": "of",
+      "requests": "requests",
+      "noRequestsAvailable": "No requests available",
+      "requestNumber": "Request number",
+      "newRequest": "New Request",
+      "created": "Created",
+      "by": "by",
+      "unknown": "Unknown"
+    },
+    "timeAgo": {
+      "today": "Today",
+      "yesterday": "Yesterday",
+      "daysAgo": "{{count}} days ago",
+      "weeksAgo": "{{count}} weeks ago",
+      "monthsAgo": "{{count}} months ago",
+      "yearsAgo": "{{count}} years ago"
+    },
+    "errors": {
+      "noRequestFoundWithThisNumber": "No request found with this request number",
+      "pleaseSelectAValidPDFFile": "Please select a valid PDF file.",
+      "failedToVerifyDocument": "Failed to verify document.",
+      "pleaseSelectAPDFFileBeforeUploading": "Please select a PDF file before uploading.",
+      "failedToSignRequest": "Failed to sign request"
+    },
+    "messages": {
+      "requestSignedSuccessfully": "Request signed successfully",
+      "documentVerifiedSuccessfully": "Document verified successfully"
+    },
+    "modals": {
+      "confirmSign": {
+        "title": "Confirm Sign",
+        "warningTitle": "Warning: Please Confirm",
+        "message": "Are you sure you want to sign this request with number:",
+        "note": "Note: This action cannot be undone after signing."
+      },
+      "signedDocumentTitle": "Signed Document",
+      "verifyDocument": {
+        "title": "Verify Document",
+        "selectPDF": "Select PDF File"
+      }
+    }
+  },
+  "leftSide": {
+    "home": "Home",
+    "signature": "Signature",
+    "profile": "Profile",
+    "password": "Password",
+    "news": "News",
+    "createNews": "Create News",
+    "editNews": "Edit News",
+    "companyManagement": "Company Management",
+    "packages": "Packages",
+    "contacts": "Contacts",
+    "addFile": "Add File",
+    "myDocuments": "My Documents"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Fill out the form below and we'll get back to you as soon as possible.",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone Number",
+    "phonePlaceholder": "(123) 456-7890",
+    "message": "Message",
+    "messagePlaceholder": "How can we help you?",
+    "messageRequired": "Message is required",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "success": "We'll get back to you as soon as possible.",
+    "error": "Your message couldn't be sent. Please try again."
+  }
+}

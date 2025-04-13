@@ -1,0 +1,87 @@
+.tableContainer {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.table {
+  margin-bottom: 0;
+}
+
+.tableHeader {
+  background-color: #f8f9fa;
+  th {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    color: #495057;
+    border-top: none;
+  }
+}
+
+.tableRow {
+  &:hover {
+    background-color: #f8f9fa;
+  }
+}
+
+.actionButton {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.updateButton {
+  color: #007bff;
+  border-color: #007bff;
+  &:hover {
+    background-color: #007bff;
+    color: #ffffff;
+  }
+}
+
+.deleteButton {
+  color: #dc3545;
+  border-color: #dc3545;
+  &:hover {
+    background-color: #dc3545;
+    color: #ffffff;
+  }
+}
+
+.pagination {
+  margin-top: 2rem;
+}
+
+.paginationItem {
+  margin: 0 0.25rem;
+}
+
+.statusBadge {
+  padding: 0.25rem 0.5rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.statusActive {
+  background-color: #28a745;
+  color: #ffffff;
+}
+
+.statusInactive {
+  background-color: #dc3545;
+  color: #ffffff;
+}

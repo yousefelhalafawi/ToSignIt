@@ -1,0 +1,337 @@
+// Variables
+@import "../../../_style/variables.scss"; // This gives access to the variables directly
+@import "../../../_style/mixin.scss"; // This gives access to mixins directly
+.header {
+  color: $main-color;
+}
+.signaturePad {
+  padding: 2rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.addContactButton {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: transparent;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.375rem;
+  color: #64748b;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: all 0.2s;
+
+  &:hover {
+    border-color: #94a3b8;
+  }
+  &.disabled {
+    border-color: none;
+    background-color: #eeeeee;
+    border-color: #94a3b8;
+    cursor: default;
+  }
+
+  &.active {
+    background-color: #f1f5f9;
+    border-color: #94a3b8;
+  }
+}
+
+.addSignatureButton {
+  padding: 0.5rem 1rem;
+  background: transparent;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.375rem;
+  color: #64748b;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: all 0.2s;
+
+  // &:hover {
+  //   border-color: #94a3b8;
+  // }
+  &.disabled {
+    border-color: none;
+    background-color: #eeeeee;
+    border-color: #94a3b8;
+    cursor: default;
+  }
+
+  &.active {
+    background-color: #f1f5f9;
+    border-color: #94a3b8;
+  }
+}
+
+.uploadButton {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: $main-color;
+  color: white;
+  border: none;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  cursor: pointer;
+  margin-left: auto;
+  transition: background-color 0.2s;
+
+  &:hover {
+    background-color: #4f46e5;
+  }
+}
+
+.hiddenInput {
+  display: none;
+}
+
+.modal {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(255, 255, 255, 0.95);
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  z-index: 5;
+}
+
+.modalContent {
+  width: 100%;
+  max-width: 24rem;
+  margin: 0 auto;
+}
+
+.modalTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #0f172a;
+  margin-bottom: 1.5rem;
+}
+
+.searchInputWrapper {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+
+  &:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.1);
+  }
+}
+
+.modalActions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.findButton {
+  padding: 0.5rem 1rem;
+  background: #6366f1;
+  color: white;
+  border: none;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  cursor: pointer;
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+}
+
+.closeModalButton {
+  padding: 0.5rem 1rem;
+  background: transparent;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.375rem;
+  color: #64748b;
+  font-size: 0.875rem;
+  cursor: pointer;
+}
+
+.canvasContainer {
+  flex: 1;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  min-height: 400px;
+}
+
+.canvas {
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  &:not(:empty) {
+    border: 1px solid #e2e8f0;
+  }
+}
+
+.placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  color: #94a3b8;
+  text-align: center;
+
+  svg {
+    width: 2rem;
+    height: 2rem;
+    opacity: 0.5;
+  }
+
+  p {
+    font-size: 0.875rem;
+  }
+}
+
+.pageControls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding-top: 1rem;
+}
+
+.pageButton {
+  padding: 0.25rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.375rem;
+  background: transparent;
+  color: #64748b;
+  cursor: pointer;
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+}
+
+.pageNumber {
+  font-size: 0.875rem;
+  color: #64748b;
+  padding: 0 0.5rem;
+}
+
+.selectedContacts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.contactChip {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.25rem 0.75rem;
+  background: #f1f5f9;
+  border-radius: 1rem;
+  font-size: 0.875rem;
+  color: #64748b;
+}
+.outlinedButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border: 1px solid #333;
+  background-color: transparent;
+  color: #333;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.outlinedButton:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.removeContactButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.125rem;
+  border: none;
+  background: none;
+  color: #94a3b8;
+  cursor: pointer;
+  transition: color 0.2s;
+
+  &:hover {
+    color: #ef4444;
+  }
+}
+
+.removeSignatureButton {
+  background-color: #ef4444; // Red color for removal
+  color: white; // White text for contrast
+  padding: 8px 16px; // Padding for better clickability
+  border: none; // Remove default border
+  border-radius: 4px; // Rounded corners
+  cursor: pointer; // Pointer cursor on hover
+  font-size: 14px; // Consistent font size
+  display: flex; // Flexbox for alignment
+  align-items: center; // Center items vertically
+  justify-content: center; // Center items horizontally
+  transition: background-color 0.2s ease; // Smooth hover transition
+
+  &:hover {
+    background-color: #dc2626; // Darker red on hover
+  }
+
+  &:active {
+    background-color: #b91c1c; // Even darker red when clicked
+  }
+
+  &:focus {
+    outline: none; // Remove default focus outline
+    box-shadow: 0 0 0 2px rgba(239, 68, 68, 0.5); // Add a focus ring
+  }
+}
+
+.textFormattingToolbar {
+  display: flex;
+  gap: 8px;
+  margin: 0 10px;
+}
+
+.formatButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.active-format {
+  background-color: #333; 
+  color: white !important;
+  border-color: #333;
+}

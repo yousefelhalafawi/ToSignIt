@@ -1,0 +1,42 @@
+@import "../../../_style/mixin.scss";
+@import "../../../_style/variables.scss";
+
+.navBar {
+  position: relative;
+  padding: 1rem 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  &:after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    margin: auto;
+    background: linear-gradient(to right, $main-color, $secondary-color);
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}
+
+.navLink {
+  color: $text-color;
+  font-weight: 500;
+  margin-right: 1rem;
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: $main-color;
+  }
+}
+
+.navButton {
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(83, 78, 232, 0.1);
+  }
+}

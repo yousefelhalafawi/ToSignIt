@@ -1,0 +1,112 @@
+// Variables
+@import "../../_style/variables.scss"; // This gives access to the variables directly
+@import "../../_style/mixin.scss"; // This gives access to mixins directly
+
+.heroSection {
+  position: relative;
+  margin-bottom: 3rem;
+
+  .heroImage {
+    height: 500px;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  :global(.carousel-caption) {
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 2rem;
+    text-align: left;
+  }
+
+  :global(.carousel-control-prev),
+  :global(.carousel-control-next) {
+    width: 5%;
+  }
+
+  :global(.carousel-indicators) {
+    margin-bottom: 1rem;
+  }
+}
+
+.newsGrid {
+  .newsCard {
+    @include cardHover;
+    margin-bottom: 1.5rem;
+
+    .cardImage {
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .cardTitle {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    .cardText {
+      font-size: 0.9rem;
+      color: lighten($text-color, 20%);
+    }
+  }
+}
+
+.sectionTitle {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid $main-color;
+  display: inline-block;
+}
+
+.footer {
+  background-color: $light-gray;
+  margin-top: 3rem;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin-top: 2rem;
+
+  .pageItem {
+    margin: 0 0.25rem;
+
+    .pageLink {
+      display: block;
+      padding: 0.5rem 0.75rem;
+      color: $main-color;
+      background-color: #fff;
+      border: 1px solid #dee2e6;
+      border-radius: 0.25rem;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: #e9ecef;
+      }
+
+      &.active {
+        background-color: $main-color;
+        color: #fff;
+        border-color: $main-color;
+      }
+
+      &.disabled {
+        color: #6c757d;
+        pointer-events: none;
+        cursor: auto;
+        background-color: #fff;
+        border-color: #dee2e6;
+      }
+    }
+  }
+}
